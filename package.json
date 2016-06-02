@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-olympic",
+  "version": "1.0.0",
+  "description": "Shared ESLint config based on AirBnB JavaScript style guide.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run --silent lint",
+    "lint": "eslint . --cache",
+    "lintfix": "eslint . --fix"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "olympic",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Olympic Software",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
+  },
+  "peerDependencies": {
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olympicsoftware/eslint-config-olympic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olympicsoftware/eslint-config-olympic/issues"
+  },
+  "homepage": "https://github.com/olympicsoftware/eslint-config-olympic#readme"
+}
