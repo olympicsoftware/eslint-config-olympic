@@ -1,8 +1,4 @@
+const extendRules = require('./src/extendrules');
 const airbnbEslintConfigBase = require('eslint-config-airbnb-base');
 
-const bestPractices = require('./rules/best-practices');
-const style = require('./rules/style');
-
-Object.assign(airbnbEslintConfigBase.rules, bestPractices.rules, style.rules);
-
-module.exports = airbnbEslintConfigBase;
+module.exports = extendRules(airbnbEslintConfigBase);

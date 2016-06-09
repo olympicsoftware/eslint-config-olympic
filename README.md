@@ -1,6 +1,6 @@
 # Olympic ESLint Config
 
-This config is the AirBnB base config (ES5 & ES6) with some exceptions.
+This config is the AirBnB base config with some exceptions. Supports both ES5 and ES6.
 
 ## Usage
 
@@ -13,6 +13,13 @@ Extend this config in your `.eslintrc`:
 ```
 {
     "extends": "olympic",
+}
+```
+
+For linting legacy code (ES5) use the following in your .eslintrc:
+```
+{
+    "extends": "olympic/legacy",
 }
 ```
 
