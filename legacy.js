@@ -1,4 +1,7 @@
-const extendRules = require('./src/extendrules');
-const airbnbEslintConfigLegacy = require('eslint-config-airbnb-base/legacy');
-
-module.exports = extendRules(airbnbEslintConfigLegacy);
+module.exports = {
+    extends: [
+        'eslint-config-airbnb-base/legacy',
+        './rules/best-practices',
+        './rules/style',
+    ].map(require.resolve),
+};
