@@ -5,5 +5,6 @@ module.exports = {
         'no-nested-ternary': 0,
         'one-var': 0,
         'one-var-declaration-per-line': 0,
+        'linebreak-style': 0,
     },
 };

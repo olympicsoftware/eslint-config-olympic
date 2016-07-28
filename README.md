@@ -33,3 +33,4 @@ For linting legacy code (ES5) use the following in your .eslintrc:
 | [no-nested-ternary](http://eslint.org/docs/rules/no-nested-ternary) | 2                                              | 0                                              |
 | [one-var](http://eslint.org/docs/rules/one-var) | 2, 'never' | 0
 | [one-var-declaration-per-line](http://eslint.org/docs/rules/one-var-declaration-per-line) | 2, 'always' | 0
+| [linebreak-style](http://eslint.org/docs/rules/linebreak-style) | 2, 'unix' | 0
